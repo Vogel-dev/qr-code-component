@@ -7,8 +7,44 @@
 
 body {
   font-family: 'Outfit', sans-serif;
+  background: #d6e2f0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p {
   font-size: 15px;
+}
+
+.component {
+  background: white;
+  width: 315px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.qr-code-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.qr-header, .qr-content {
+  text-align: center;
+}
+
+.qr-header {
+  margin: 1.5rem 0rem;
+  color: #1f3251;
+}
+
+.qr-content {
+  color: #7b879d;
+  width: 90%;
 }
